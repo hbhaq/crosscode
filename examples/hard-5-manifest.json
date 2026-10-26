@@ -1,0 +1,83 @@
+{
+  "source": {
+    "revision": {
+      "bigcodebench": {
+        "repo": "bigcode/bigcodebench",
+        "revision": "b74c0d0bf70d2c0bc459be537895cca163007f1a",
+        "split": "v0.1.4",
+        "files": [
+          "data/v0.1.4-00000-of-00001.parquet"
+        ],
+        "sha256": {
+          "data/v0.1.4-00000-of-00001.parquet": "d9a4965821c9507ebdfb551c288656b2d5fe553234f5183044333ca8a4018267"
+        }
+      },
+      "bigcodebench-hard": {
+        "repo": "bigcode/bigcodebench-hard",
+        "revision": "298d2cc7b96612e15e47313c3603ee124cee0c1f",
+        "split": "v0.1.4",
+        "files": [
+          "data/v0.1.4-00000-of-00001.parquet"
+        ],
+        "sha256": {
+          "data/v0.1.4-00000-of-00001.parquet": "73a4270b43feb81abefad7bb1b592937c768ea45c3263bedc1cabd30a9a6ce79"
+        }
+      }
+    },
+    "full": 1140,
+    "hard": 148
+  },
+  "subset": "hard",
+  "seed": 42,
+  "task_count": 5,
+  "config_defaults_hash": "3eeb1ee6733107126f551e395ec058e8fc0291a296b36e772669488ddbfbccec",
+  "tasks": [
+    {
+      "task_id": "BigCodeBench/969",
+      "task_hash": "eae847323d4b9a67a42dfcc7edf90b5bb156a08a83bd148dbdd3d90449efebb3",
+      "libs": [
+        "pandas",
+        "numpy",
+        "sklearn"
+      ]
+    },
+    {
+      "task_id": "BigCodeBench/108",
+      "task_hash": "84d5756e4cd68d27a07fa7f10d4d3b214dd3ede0174fe10dd93b539d9af3390c",
+      "libs": [
+        "pandas",
+        "matplotlib",
+        "statsmodels"
+      ]
+    },
+    {
+      "task_id": "BigCodeBench/526",
+      "task_hash": "90c0a3c17b97e441831a0fe043daca1ade5ceb0de7510c61c2cf8a9a3e68ebe0",
+      "libs": [
+        "pandas",
+        "collections",
+        "numpy",
+        "json"
+      ]
+    },
+    {
+      "task_id": "BigCodeBench/915",
+      "task_hash": "e69f34846a79c7db8a08c7d9692ea040fe6646c5b6ae68f40744ecec80d83366",
+      "libs": [
+        "numpy",
+        "matplotlib",
+        "scipy"
+      ]
+    },
+    {
+      "task_id": "BigCodeBench/917",
+      "task_hash": "06c97db57b50ba2adc0b9ae293ca18702b43aefcdbf55a1480e175d38ea4437d",
+      "libs": [
+        "pandas",
+        "typing",
+        "matplotlib",
+        "statsmodels"
+      ]
+    }
+  ]
+}

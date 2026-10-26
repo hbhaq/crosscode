@@ -1,0 +1,4 @@
+{
+  "synthetic": true,
+  "text": "<solution>\ndef task_func(x):\n    return x\n</solution>"
+}

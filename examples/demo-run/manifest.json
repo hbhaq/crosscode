@@ -1,0 +1,128 @@
+{
+  "project": "Crosscode",
+  "config_hash": "0b3d2db146022ac420d76679f7f8cc721a258ae7f73410353986655b4538d4c5",
+  "source": {
+    "revision": "synthetic-v1",
+    "full": 20,
+    "hard": 10
+  },
+  "selection": {
+    "subset": "full",
+    "tasks": "5",
+    "seed": 42,
+    "include_libs": "",
+    "exclude_libs": ""
+  },
+  "tasks": [
+    {
+      "task_id": "Synthetic/9",
+      "instruct_prompt": "Return x unchanged.",
+      "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+      "code_prompt": "def task_func(x):",
+      "canonical_solution": "    return x\n",
+      "entry_point": "task_func",
+      "test": "# SYNTHETIC ONLY: not executed by offline demo",
+      "hard": true,
+      "libs": [
+        "math"
+      ]
+    },
+    {
+      "task_id": "Synthetic/13",
+      "instruct_prompt": "Return x unchanged.",
+      "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+      "code_prompt": "def task_func(x):",
+      "canonical_solution": "    return x\n",
+      "entry_point": "task_func",
+      "test": "# SYNTHETIC ONLY: not executed by offline demo",
+      "hard": false,
+      "libs": [
+        "math"
+      ]
+    },
+    {
+      "task_id": "Synthetic/4",
+      "instruct_prompt": "Return x unchanged.",
+      "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+      "code_prompt": "def task_func(x):",
+      "canonical_solution": "    return x\n",
+      "entry_point": "task_func",
+      "test": "# SYNTHETIC ONLY: not executed by offline demo",
+      "hard": true,
+      "libs": [
+        "json"
+      ]
+    },
+    {
+      "task_id": "Synthetic/12",
+      "instruct_prompt": "Return x unchanged.",
+      "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+      "code_prompt": "def task_func(x):",
+      "canonical_solution": "    return x\n",
+      "entry_point": "task_func",
+      "test": "# SYNTHETIC ONLY: not executed by offline demo",
+      "hard": false,
+      "libs": [
+        "json"
+      ]
+    },
+    {
+      "task_id": "Synthetic/17",
+      "instruct_prompt": "Return x unchanged.",
+      "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+      "code_prompt": "def task_func(x):",
+      "canonical_solution": "    return x\n",
+      "entry_point": "task_func",
+      "test": "# SYNTHETIC ONLY: not executed by offline demo",
+      "hard": false,
+      "libs": [
+        "math"
+      ]
+    }
+  ],
+  "eligible_ids": [
+    "Synthetic/9",
+    "Synthetic/13",
+    "Synthetic/4",
+    "Synthetic/12",
+    "Synthetic/17",
+    "Synthetic/3",
+    "Synthetic/5",
+    "Synthetic/8",
+    "Synthetic/14",
+    "Synthetic/2",
+    "Synthetic/7",
+    "Synthetic/18",
+    "Synthetic/1",
+    "Synthetic/19",
+    "Synthetic/10",
+    "Synthetic/6",
+    "Synthetic/15",
+    "Synthetic/16",
+    "Synthetic/0",
+    "Synthetic/11"
+  ],
+  "eligible_hashes": {
+    "Synthetic/9": "dcd27ff11b21d136e42439975a319f2d9dc5aa38dcfc8a1f309851ce62403d4c",
+    "Synthetic/13": "222d68ab141d2eb0043abc0e8e192c77a073ca6ff248fc1204af66c2027a7f07",
+    "Synthetic/4": "7e5487aaded6478eb96013bdf41d1f032df1c3dac5953efc374bcad5ef820b8a",
+    "Synthetic/12": "6a33b2b002754b53b9c02b473337fec4e6a052ca878c07a8dca8e1996b880183",
+    "Synthetic/17": "581e90a25c435cab590eea3d0ab220afa404a307e832f15efa424b4dde412c4d",
+    "Synthetic/3": "e0399e40a95d8012dc763f7790e6a33865a323c24b54a660a7b10de355883acd",
+    "Synthetic/5": "3d84f5c43a0d2ce0947cf9707ad9b98844eb2cf61ffdd72ff0469af143b6e010",
+    "Synthetic/8": "fee93a1668dcb49bbfd6e198c07abc78bce91546f3d02451f1984ee7ccfcad1b",
+    "Synthetic/14": "8f6ea9ab64373eb8330655261601ebec324fbc9dbfb7fde0207c749dc1de732b",
+    "Synthetic/2": "8be6215d47bfba92aa6eadc47e34363fafdc6a4d72c4e9428f4ef870f0194004",
+    "Synthetic/7": "a7048ea481f351826b2a3b1cb8204b94c96b72e32b69f48b1daf47f2429797b8",
+    "Synthetic/18": "32208e20aa67e6e75842232e086505d2f63f4c7daa97ceb4c53e4a6ebd046d5e",
+    "Synthetic/1": "c33337e09b2844af3702e3ec2841f5e560118cfa5e31d288830849eb0df807ab",
+    "Synthetic/19": "ade0d806220525b2045e8039a45d0b53c24be12d863c02f7d172a28efc1278bb",
+    "Synthetic/10": "bc85c89366cc6a27a587622987e6267dfe97d06a9e2ff5eac1628add674e8972",
+    "Synthetic/6": "8cec9fbbc9729289dae6acdd7030f0a18c1473a007ed83a090b60e9e5185917e",
+    "Synthetic/15": "eca3230bceb57a3eb8a324bc70d2097e4c6d3fe619271c8529949811c07a346a",
+    "Synthetic/16": "becc5d9a5cf9134832ca75cc92edffe2d8b9abb613e14c0425470d88ca284a9a",
+    "Synthetic/0": "05787e17c297d22e7086468e3e2436fde41ac433a6ff88ad91e65d69310a5177",
+    "Synthetic/11": "baeb979b5880d035fbe2dce522e136c787bafbf4de7effa0a2044e9dadeadad3"
+  },
+  "history": []
+}

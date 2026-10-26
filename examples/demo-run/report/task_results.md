@@ -1,0 +1,34 @@
+Provenance: `{"analysis_population": "all saved work", "configuration_hash": "0b3d2db146022ac420d76679f7f8cc721a258ae7f73410353986655b4538d4c5", "dataset_revision": "\"synthetic-v1\"", "design_mode": "paper-independent", "output_token_caps": "16384 / 16384", "phase": "main", "reasoning_efforts": "medium / medium", "requested_models": "claude-opus-5-5;gpt-6.1-sol", "returned_models": "SYNTHETIC-A;SYNTHETIC-O", "selected_task_count": 5, "subset": "full"}`
+
+| task_id | rep | condition | writer_key | final_key | attempted | valid | not_run | status | infrastructure_failure | outcome | evaluation_status | draft_outcome | reliability_eligible | writing_cost | reviewing_cost | workflow_cost | writer_latency | reviewer_latency | workflow_latency |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Synthetic/9 | 0 | A | Synthetic/9:0:A:writer | Synthetic/9:0:A:writer | True | True | False | valid | False | False | synthetic_fail | False | True | 0.00128 | 0 | 0.00128 | 0.1 | 0 | 0.1 |
+| Synthetic/9 | 0 | O | Synthetic/9:0:O:writer | Synthetic/9:0:O:writer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00064 | 0 | 0.00064 | 0.1 | 0 | 0.1 |
+| Synthetic/9 | 0 | AO | Synthetic/9:0:AO:writer | Synthetic/9:0:AO:reviewer | True | True | False | valid | False | True | synthetic_pass | False | True | 0.00128 | 0.00064 | 0.00192 | 0.1 | 0.1 | 0.2 |
+| Synthetic/9 | 0 | OA | Synthetic/9:0:OA:writer | Synthetic/9:0:OA:reviewer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00064 | 0.00128 | 0.00192 | 0.1 | 0.1 | 0.2 |
+| Synthetic/9 | 0 | AA | Synthetic/9:0:AA:writer | Synthetic/9:0:AA:reviewer | True | True | False | valid | False | True | synthetic_pass | False | True | 0.00128 | 0.00128 | 0.00256 | 0.1 | 0.1 | 0.2 |
+| Synthetic/9 | 0 | OO | Synthetic/9:0:OO:writer | Synthetic/9:0:OO:reviewer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00064 | 0.00064 | 0.00128 | 0.1 | 0.1 | 0.2 |
+| Synthetic/13 | 0 | A | Synthetic/13:0:A:writer | Synthetic/13:0:A:writer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00128 | 0 | 0.00128 | 0.1 | 0 | 0.1 |
+| Synthetic/13 | 0 | O | Synthetic/13:0:O:writer | Synthetic/13:0:O:writer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00064 | 0 | 0.00064 | 0.1 | 0 | 0.1 |
+| Synthetic/13 | 0 | AO | Synthetic/13:0:AO:writer | Synthetic/13:0:AO:reviewer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00128 | 0.00064 | 0.00192 | 0.1 | 0.1 | 0.2 |
+| Synthetic/13 | 0 | OA | Synthetic/13:0:OA:writer | Synthetic/13:0:OA:reviewer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00064 | 0.00128 | 0.00192 | 0.1 | 0.1 | 0.2 |
+| Synthetic/13 | 0 | AA | Synthetic/13:0:AA:writer | Synthetic/13:0:AA:reviewer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00128 | 0.00128 | 0.00256 | 0.1 | 0.1 | 0.2 |
+| Synthetic/13 | 0 | OO | Synthetic/13:0:OO:writer | Synthetic/13:0:OO:reviewer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00064 | 0.00064 | 0.00128 | 0.1 | 0.1 | 0.2 |
+| Synthetic/4 | 0 | A | Synthetic/4:0:A:writer | Synthetic/4:0:A:writer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00128 | 0 | 0.00128 | 0.1 | 0 | 0.1 |
+| Synthetic/4 | 0 | O | Synthetic/4:0:O:writer | Synthetic/4:0:O:writer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00064 | 0 | 0.00064 | 0.1 | 0 | 0.1 |
+| Synthetic/4 | 0 | AO | Synthetic/4:0:AO:writer | Synthetic/4:0:AO:reviewer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00128 | 0.00064 | 0.00192 | 0.1 | 0.1 | 0.2 |
+| Synthetic/4 | 0 | OA | Synthetic/4:0:OA:writer | Synthetic/4:0:OA:reviewer | True | True | False | valid | False | False | synthetic_fail | True | True | 0.00064 | 0.00128 | 0.00192 | 0.1 | 0.1 | 0.2 |
+| Synthetic/4 | 0 | AA | Synthetic/4:0:AA:writer | Synthetic/4:0:AA:reviewer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00128 | 0.00128 | 0.00256 | 0.1 | 0.1 | 0.2 |
+| Synthetic/4 | 0 | OO | Synthetic/4:0:OO:writer | Synthetic/4:0:OO:reviewer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00064 | 0.00064 | 0.00128 | 0.1 | 0.1 | 0.2 |
+| Synthetic/12 | 0 | A | Synthetic/12:0:A:writer | Synthetic/12:0:A:writer | True | True | False | valid | False | False | synthetic_fail | False | True | 0.00128 | 0 | 0.00128 | 0.1 | 0 | 0.1 |
+| Synthetic/12 | 0 | O | Synthetic/12:0:O:writer | Synthetic/12:0:O:writer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00064 | 0 | 0.00064 | 0.1 | 0 | 0.1 |
+| Synthetic/12 | 0 | AO | Synthetic/12:0:AO:writer | Synthetic/12:0:AO:reviewer | True | True | False | valid | False | True | synthetic_pass | False | True | 0.00128 | 0.00064 | 0.00192 | 0.1 | 0.1 | 0.2 |
+| Synthetic/12 | 0 | OA | Synthetic/12:0:OA:writer | Synthetic/12:0:OA:reviewer | True | True | False | valid | False | False | synthetic_fail | True | True | 0.00064 | 0.00128 | 0.00192 | 0.1 | 0.1 | 0.2 |
+| Synthetic/12 | 0 | AA | Synthetic/12:0:AA:writer | Synthetic/12:0:AA:reviewer | True | True | False | valid | False | True | synthetic_pass | False | True | 0.00128 | 0.00128 | 0.00256 | 0.1 | 0.1 | 0.2 |
+| Synthetic/12 | 0 | OO | Synthetic/12:0:OO:writer | Synthetic/12:0:OO:reviewer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00064 | 0.00064 | 0.00128 | 0.1 | 0.1 | 0.2 |
+| Synthetic/17 | 0 | A | Synthetic/17:0:A:writer | Synthetic/17:0:A:writer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00128 | 0 | 0.00128 | 0.1 | 0 | 0.1 |
+| Synthetic/17 | 0 | O | Synthetic/17:0:O:writer | Synthetic/17:0:O:writer | True | True | False | valid | False | False | synthetic_fail | False | True | 0.00064 | 0 | 0.00064 | 0.1 | 0 | 0.1 |
+| Synthetic/17 | 0 | AO | Synthetic/17:0:AO:writer | Synthetic/17:0:AO:reviewer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00128 | 0.00064 | 0.00192 | 0.1 | 0.1 | 0.2 |
+| Synthetic/17 | 0 | OA | Synthetic/17:0:OA:writer | Synthetic/17:0:OA:reviewer | True | True | False | valid | False | True | synthetic_pass | False | True | 0.00064 | 0.00128 | 0.00192 | 0.1 | 0.1 | 0.2 |
+| Synthetic/17 | 0 | AA | Synthetic/17:0:AA:writer | Synthetic/17:0:AA:reviewer | True | True | False | valid | False | True | synthetic_pass | True | True | 0.00128 | 0.00128 | 0.00256 | 0.1 | 0.1 | 0.2 |
+| Synthetic/17 | 0 | OO | Synthetic/17:0:OO:writer | Synthetic/17:0:OO:reviewer | True | True | False | valid | False | True | synthetic_pass | False | True | 0.00064 | 0.00064 | 0.00128 | 0.1 | 0.1 | 0.2 |

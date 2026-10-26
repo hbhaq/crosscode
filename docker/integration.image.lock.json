@@ -1,0 +1,10 @@
+{
+  "image": "sha256:cf18322963d2f0f7b47c6e7f0bac7d15d8d577191294f9f0cf718cf9d184c7b1",
+  "tag": "crosscode-evaluator-integration:latest",
+  "platform": "linux/amd64",
+  "base": "python:3.10-slim-bookworm@sha256:5be5aaecb962a41567bc8041f1e9e3432cb085b037fe057f9a562630b2e4b370",
+  "evaluator_commit": "09dd993f46c3fbf3a799465bb96d524edcb0b199",
+  "scope": "Selected-task integration and first hard-five pilot; not full benchmark dependency coverage",
+  "dockerfile_sha256": "54c6453037acb4a1f36939d30f1e2193c26ac64403823f41dce1856143cba0af",
+  "freeze_sha256": "278839ec00d26e5ac0671db3cc23893c39bf0d30402f657a249b370039cc8fba"
+}

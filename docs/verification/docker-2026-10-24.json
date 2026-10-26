@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-24",
+  "image": {
+    "image": "sha256:cf18322963d2f0f7b47c6e7f0bac7d15d8d577191294f9f0cf718cf9d184c7b1",
+    "tag": "crosscode-evaluator-integration:latest",
+    "platform": "linux/amd64",
+    "base": "python:3.10-slim-bookworm@sha256:5be5aaecb962a41567bc8041f1e9e3432cb085b037fe057f9a562630b2e4b370",
+    "evaluator_commit": "09dd993f46c3fbf3a799465bb96d524edcb0b199",
+    "scope": "Selected-task integration and first hard-five pilot; not full benchmark dependency coverage",
+    "dockerfile_sha256": "54c6453037acb4a1f36939d30f1e2193c26ac64403823f41dce1856143cba0af",
+    "freeze_sha256": "278839ec00d26e5ac0671db3cc23893c39bf0d30402f657a249b370039cc8fba"
+  },
+  "fixture_integration": "passed: correct accepted, incorrect rejected",
+  "canonical_preflight_passed": true,
+  "task_outcomes": {
+    "BigCodeBench/969": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/108": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/526": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/915": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/917": {
+      "status": "pass",
+      "passed": true
+    }
+  },
+  "source": {
+    "revision": {
+      "bigcodebench": {
+        "repo": "bigcode/bigcodebench",
+        "revision": "b74c0d0bf70d2c0bc459be537895cca163007f1a",
+        "split": "v0.1.4",
+        "files": [
+          "data/v0.1.4-00000-of-00001.parquet"
+        ],
+        "sha256": {
+          "data/v0.1.4-00000-of-00001.parquet": "d9a4965821c9507ebdfb551c288656b2d5fe553234f5183044333ca8a4018267"
+        }
+      },
+      "bigcodebench-hard": {
+        "repo": "bigcode/bigcodebench-hard",
+        "revision": "298d2cc7b96612e15e47313c3603ee124cee0c1f",
+        "split": "v0.1.4",
+        "files": [
+          "data/v0.1.4-00000-of-00001.parquet"
+        ],
+        "sha256": {
+          "data/v0.1.4-00000-of-00001.parquet": "73a4270b43feb81abefad7bb1b592937c768ea45c3263bedc1cabd30a9a6ce79"
+        }
+      }
+    },
+    "full": 1140,
+    "hard": 148
+  },
+  "configuration_hash": "942092a703e188b1e50d71a658cb7aa9973e907dae246c137451515a72349997",
+  "preflight_key": "b56b3679375ae74996888f3776224818330c741225f30f93cb3c7f60990b1240",
+  "runtime": [
+    "docker",
+    "run",
+    "--rm",
+    "--name",
+    "<container>",
+    "-i",
+    "--network",
+    "none",
+    "--read-only",
+    "--cap-drop",
+    "ALL",
+    "--security-opt",
+    "no-new-privileges",
+    "--pids-limit",
+    "128",
+    "--memory",
+    "4g",
+    "--cpus",
+    "2",
+    "--ulimit",
+    "nofile=1024:1024",
+    "--user",
+    "65534:65534",
+    "--tmpfs",
+    "/tmp:rw,nosuid,nodev,size=1g",
+    "--tmpfs",
+    "/work:rw,exec,nosuid,nodev,size=1g,uid=65534,gid=65534,mode=0700",
+    "-e",
+    "HOME=/tmp",
+    "-e",
+    "MPLCONFIGDIR=/tmp/matplotlib",
+    "-e",
+    "HF_HUB_OFFLINE=1",
+    "-e",
+    "HF_DATASETS_OFFLINE=1",
+    "sha256:cf18322963d2f0f7b47c6e7f0bac7d15d8d577191294f9f0cf718cf9d184c7b1"
+  ],
+  "ledger": {
+    "actual_usd": 0,
+    "reserved_usd": 0,
+    "recorded_attempts": 0,
+    "synthetic_attempts": 0,
+    "billable_attempts": 0,
+    "unresolved_attempts": 0
+  },
+  "full_test_suite": {
+    "tests": 22,
+    "passed": 22,
+    "skipped": 0,
+    "seconds": 66.639
+  }
+}

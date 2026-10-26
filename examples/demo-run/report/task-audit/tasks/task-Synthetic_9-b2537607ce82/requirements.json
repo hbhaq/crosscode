@@ -1,0 +1,15 @@
+{
+  "task_id": "Synthetic/9",
+  "instruct_prompt": "Return x unchanged.",
+  "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+  "code_prompt": "def task_func(x):",
+  "entry_point": "task_func",
+  "libs": [
+    "math"
+  ],
+  "hard": true,
+  "task_hash": "dcd27ff11b21d136e42439975a319f2d9dc5aa38dcfc8a1f309851ce62403d4c",
+  "split": "instruct",
+  "configuration_hash": "0b3d2db146022ac420d76679f7f8cc721a258ae7f73410353986655b4538d4c5",
+  "design": "paper-independent"
+}

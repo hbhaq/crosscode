@@ -1,0 +1,156 @@
+{
+  "draft": {
+    "status": "synthetic_fail",
+    "passed": false,
+    "synthetic": true,
+    "identity": "08994e1a698e870c00e1f01bf21fd52d0c7649527ae9b179b75b3d032d887d34",
+    "code_hash": "9ca5d363d30f11c077ce277494f78715be46c707f381b7145d37ff71997ba788"
+  },
+  "final": {
+    "status": "synthetic_pass",
+    "passed": true,
+    "synthetic": true,
+    "identity": "03b5036eef7d2b28740980957aeb68517d891cd4354bd7905620a7428fb6e37d",
+    "code_hash": "1b6beb88d61850ce41979ba9a7c7b660f4dde7d1dd46245f17aa0974807e835f"
+  },
+  "metadata": {
+    "project": "Crosscode",
+    "config_hash": "0b3d2db146022ac420d76679f7f8cc721a258ae7f73410353986655b4538d4c5",
+    "design": "paper-independent",
+    "mock": true,
+    "task_count": 5,
+    "dataset": {
+      "revision": "synthetic-v1",
+      "full": 20,
+      "hard": 10
+    },
+    "subset": "full",
+    "settings": {
+      "design": "paper-independent",
+      "conditions": [
+        "A",
+        "O",
+        "AO",
+        "OA",
+        "AA",
+        "OO"
+      ],
+      "gpt_model": "gpt-6.1-sol",
+      "claude_model": "claude-opus-5-5",
+      "gpt_effort": "medium",
+      "claude_effort": "medium",
+      "gpt_max_output_tokens": 16384,
+      "claude_max_output_tokens": 16384,
+      "repeats": 1,
+      "max_retries": 0,
+      "api_timeout": 300,
+      "eval_timeout": 300,
+      "profile": "personal",
+      "phase": "main",
+      "mock": true,
+      "split": "instruct",
+      "evaluator_image": "",
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 2000
+    },
+    "conditions": [
+      "A",
+      "O",
+      "AO",
+      "OA",
+      "AA",
+      "OO"
+    ],
+    "returned_models": [
+      "SYNTHETIC-A",
+      "SYNTHETIC-O"
+    ],
+    "requested_models": [
+      "claude-opus-5-5",
+      "gpt-6.1-sol"
+    ],
+    "ledger": {
+      "actual_usd": 0,
+      "reserved_usd": 0,
+      "recorded_attempts": 50,
+      "synthetic_attempts": 50,
+      "billable_attempts": 0,
+      "unresolved_attempts": 0
+    },
+    "calibration_evidence": null,
+    "bootstrap": {
+      "seed": 42,
+      "samples": 2000,
+      "unit": "task clusters, all available repetitions retained",
+      "interval": "percentile 2.5%, 97.5%; undefined below 2 clusters"
+    },
+    "population": "complete-case",
+    "manifest_tasks": [
+      {
+        "task_id": "Synthetic/9",
+        "instruct_prompt": "Return x unchanged.",
+        "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+        "code_prompt": "def task_func(x):",
+        "canonical_solution": "    return x\n",
+        "entry_point": "task_func",
+        "test": "# SYNTHETIC ONLY: not executed by offline demo",
+        "hard": true,
+        "libs": [
+          "math"
+        ]
+      },
+      {
+        "task_id": "Synthetic/13",
+        "instruct_prompt": "Return x unchanged.",
+        "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+        "code_prompt": "def task_func(x):",
+        "canonical_solution": "    return x\n",
+        "entry_point": "task_func",
+        "test": "# SYNTHETIC ONLY: not executed by offline demo",
+        "hard": false,
+        "libs": [
+          "math"
+        ]
+      },
+      {
+        "task_id": "Synthetic/4",
+        "instruct_prompt": "Return x unchanged.",
+        "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+        "code_prompt": "def task_func(x):",
+        "canonical_solution": "    return x\n",
+        "entry_point": "task_func",
+        "test": "# SYNTHETIC ONLY: not executed by offline demo",
+        "hard": true,
+        "libs": [
+          "json"
+        ]
+      },
+      {
+        "task_id": "Synthetic/12",
+        "instruct_prompt": "Return x unchanged.",
+        "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+        "code_prompt": "def task_func(x):",
+        "canonical_solution": "    return x\n",
+        "entry_point": "task_func",
+        "test": "# SYNTHETIC ONLY: not executed by offline demo",
+        "hard": false,
+        "libs": [
+          "json"
+        ]
+      },
+      {
+        "task_id": "Synthetic/17",
+        "instruct_prompt": "Return x unchanged.",
+        "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+        "code_prompt": "def task_func(x):",
+        "canonical_solution": "    return x\n",
+        "entry_point": "task_func",
+        "test": "# SYNTHETIC ONLY: not executed by offline demo",
+        "hard": false,
+        "libs": [
+          "math"
+        ]
+      }
+    ]
+  }
+}

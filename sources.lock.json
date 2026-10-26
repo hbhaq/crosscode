@@ -1,0 +1,41 @@
+{
+  "datasets": {
+    "bigcodebench": {
+      "repo": "bigcode/bigcodebench",
+      "revision": "b74c0d0bf70d2c0bc459be537895cca163007f1a",
+      "split": "v0.1.4",
+      "files": [
+        "data/v0.1.4-00000-of-00001.parquet"
+      ],
+      "sha256": {
+        "data/v0.1.4-00000-of-00001.parquet": "d9a4965821c9507ebdfb551c288656b2d5fe553234f5183044333ca8a4018267"
+      }
+    },
+    "bigcodebench-hard": {
+      "repo": "bigcode/bigcodebench-hard",
+      "revision": "298d2cc7b96612e15e47313c3603ee124cee0c1f",
+      "split": "v0.1.4",
+      "files": [
+        "data/v0.1.4-00000-of-00001.parquet"
+      ],
+      "sha256": {
+        "data/v0.1.4-00000-of-00001.parquet": "73a4270b43feb81abefad7bb1b592937c768ea45c3263bedc1cabd30a9a6ce79"
+      }
+    }
+  },
+  "study": {
+    "url": "https://github.com/shawnzxiang/cross-model-review-code",
+    "commit": "5573234ecd682dc864fdf775bbe808722d60126c",
+    "license": "MIT"
+  },
+  "bigcodebench": {
+    "url": "https://github.com/bigcode-project/bigcodebench",
+    "commit": "09dd993f46c3fbf3a799465bb96d524edcb0b199",
+    "license": "Apache-2.0"
+  },
+  "paper": {
+    "url": "https://arxiv.org/pdf/2607.21656",
+    "version": "2607.21656v1",
+    "inspected": "2026-10-24"
+  }
+}

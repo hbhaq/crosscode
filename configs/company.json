@@ -1,0 +1,15 @@
+{
+  "profile": "company",
+  "design": "paper-independent",
+  "conditions": "all",
+  "gpt_model": "gpt-6.1-sol",
+  "claude_model": "claude-opus-5-5",
+  "gpt_effort": "medium",
+  "claude_effort": "medium",
+  "gpt_max_output_tokens": 16384,
+  "claude_max_output_tokens": 16384,
+  "max_retries": 0,
+  "parallelism": 4,
+  "max_cost_usd": 500,
+  "max_task_cost_usd": 5
+}

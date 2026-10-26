@@ -1,0 +1,296 @@
+{
+  "images": {
+    "evaluator_image": "sha256:afd0ca41f44b14dd7460a52cde246c49e0e4fff6dd84256e2643728917072c7f",
+    "proxy_image": "sha256:3304f6c216ff7e417f71a675773d5a1c939dfa4414423fb009e5404685a19ef9",
+    "evaluator_base": "sha256:f81bb1173db78bc98b47681411f0f334fa98051fbe3c8ff9999a19d46d0cf0b7",
+    "policy": {
+      "version": "wikibooks-connect-sni-v1",
+      "hosts": [
+        "en.wikibooks.org"
+      ],
+      "ports": [
+        443
+      ],
+      "task_ids": [
+        "BigCodeBench/590"
+      ],
+      "transport": "read-only named-volume Unix socket; evaluator network=none",
+      "user_agent": "CrosscodeBenchmark/0.1 (BigCodeBench reproducibility pilot)",
+      "proxy_limits": {
+        "connections": 16,
+        "bytes_per_connection": 16777216,
+        "connection_seconds": 60
+      }
+    },
+    "source_sha256": {
+      "docker/Networked.Dockerfile": "14eb183b71b8ec57296b108fbe9944b2f85fa2e571de5e15f06b080bb207494e",
+      "docker/EgressProxy.Dockerfile": "0f746807fad36ea4320cde2c259b7127abbaf932a208bc5e1c257cb82bf3b4c2",
+      "docker/egress_proxy.py": "80b0750b4c72fbcff96a7065e4199b60f66674c87c5f28dbdb665add63554388",
+      "docker/egress_relay.py": "992342b8668b7ee196b9f677cb83cbc42553276a542f3c21710b13c69dfb49f9",
+      "docker/worker.py": "2374e136401fadc58bab90ae84e6a0eceb5099830820520fc18e42ee2aeb0e4e"
+    },
+    "evaluator_commit": "09dd993f46c3fbf3a799465bb96d524edcb0b199"
+  },
+  "preflight_key": "17bf7c764994fbc6114ad91e724b508afb91bb32be8b4dda6c6207aa0361127c",
+  "passed": true,
+  "diagnostics": {
+    "checked": 50,
+    "passed": 50,
+    "failed_task_ids": [],
+    "missing_modules": {},
+    "network_error_task_ids": []
+  },
+  "task_outcomes": {
+    "BigCodeBench/969": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/108": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/526": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/915": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/917": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/914": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/92": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/15": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/945": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/870": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/574": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/590": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": true
+    },
+    "BigCodeBench/532": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/211": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/208": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/162": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/511": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/227": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/678": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/553": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/657": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/399": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/988": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/1003": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/845": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/826": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/906": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/857": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/502": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/952": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/760": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/99": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/777": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/199": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/401": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/582": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/594": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/560": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/1057": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/454": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/513": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/368": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/443": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/214": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/409": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/942": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/477": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/187": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/763": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    },
+    "BigCodeBench/1008": {
+      "status": "pass",
+      "passed": true,
+      "restricted_egress_used": false
+    }
+  },
+  "inference_calls": 0
+}

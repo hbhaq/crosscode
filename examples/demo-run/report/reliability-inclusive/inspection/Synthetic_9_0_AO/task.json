@@ -1,0 +1,13 @@
+{
+  "task_id": "Synthetic/9",
+  "instruct_prompt": "Return x unchanged.",
+  "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+  "code_prompt": "def task_func(x):",
+  "canonical_solution": "    return x\n",
+  "entry_point": "task_func",
+  "test": "# SYNTHETIC ONLY: not executed by offline demo",
+  "hard": true,
+  "libs": [
+    "math"
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "image": {
+    "image": "sha256:f81bb1173db78bc98b47681411f0f334fa98051fbe3c8ff9999a19d46d0cf0b7",
+    "tag": "crosscode-evaluator-expanded:latest",
+    "base_image": "sha256:cf18322963d2f0f7b47c6e7f0bac7d15d8d577191294f9f0cf718cf9d184c7b1",
+    "evaluator_commit": "09dd993f46c3fbf3a799465bb96d524edcb0b199",
+    "scope": "Seed-42 hard-50 dependency validation, offline networking; not yet ready for all 50 tasks",
+    "dockerfile_sha256": "a26e5573488416b7f4b0da73ffba267d7d037ce54bc3a583f124e9e0dcd2f949",
+    "freeze_sha256": "a132b2eff45168fd36a8999ece63fd1072f18fceea7db605ec00449fb7cc14c7"
+  },
+  "diagnostics": {
+    "checked": 50,
+    "passed": 49,
+    "failed_task_ids": [
+      "BigCodeBench/590"
+    ],
+    "missing_modules": {},
+    "network_error_task_ids": [
+      "BigCodeBench/590"
+    ]
+  },
+  "task_outcomes": {
+    "BigCodeBench/969": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/108": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/526": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/915": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/917": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/914": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/92": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/15": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/945": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/870": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/574": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/590": {
+      "status": "fail",
+      "passed": false
+    },
+    "BigCodeBench/532": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/211": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/208": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/162": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/511": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/227": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/678": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/553": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/657": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/399": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/988": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/1003": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/845": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/826": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/906": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/857": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/502": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/952": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/760": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/99": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/777": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/199": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/401": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/582": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/594": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/560": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/1057": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/454": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/513": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/368": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/443": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/214": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/409": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/942": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/477": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/187": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/763": {
+      "status": "pass",
+      "passed": true
+    },
+    "BigCodeBench/1008": {
+      "status": "pass",
+      "passed": true
+    }
+  },
+  "paid_inference_calls_during_validation": 0,
+  "source_run_modified": false,
+  "remaining_constraint": "Official task590 tests fetch live Wikibooks; evaluator network is disabled"
+}

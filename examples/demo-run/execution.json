@@ -1,0 +1,11 @@
+{
+  "messages": [],
+  "ledger": {
+    "actual_usd": 0,
+    "reserved_usd": 0,
+    "billable_attempts": 50,
+    "unresolved_attempts": 0
+  },
+  "completed_stages": 50,
+  "planned_stages": 50
+}

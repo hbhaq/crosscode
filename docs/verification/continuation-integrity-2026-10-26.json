@@ -1,0 +1,37 @@
+{
+  "source_run": "docker-hard-five-check",
+  "continuation_run": "docker-hard-fifty-fixed",
+  "saved_stages": 100,
+  "recorded_attempts": 100,
+  "all_cache_bindings_verified": true,
+  "exact_outputs_prompts_usage_attempts_preserved": true,
+  "source_config_sha256": "acfa902eaf00b5b04a7d05d01f9b4905297af95163df27630106faf147360173",
+  "source_manifest_sha256": "5238aa00952ee6fd6487192f947a8d1011f5419f33e9af91de44c1a6bf4d12f7",
+  "migration": {
+    "kind": "evaluator-only continuation",
+    "source_run": "docker-hard-five-check",
+    "source_configuration": "942092a703e188b1e50d71a658cb7aa9973e907dae246c137451515a72349997",
+    "destination_configuration": "195cc38f16c75479932b7b7a4e9445b920c88864b898547e1fcbcb06dc19919f",
+    "source_manifest_sha256": "5238aa00952ee6fd6487192f947a8d1011f5419f33e9af91de44c1a6bf4d12f7",
+    "old_image": "sha256:cf18322963d2f0f7b47c6e7f0bac7d15d8d577191294f9f0cf718cf9d184c7b1",
+    "new_image": "sha256:afd0ca41f44b14dd7460a52cde246c49e0e4fff6dd84256e2643728917072c7f",
+    "resolved_image": "sha256:afd0ca41f44b14dd7460a52cde246c49e0e4fff6dd84256e2643728917072c7f",
+    "old_egress_proxy_image": "",
+    "new_egress_proxy_image": "sha256:3304f6c216ff7e417f71a675773d5a1c939dfa4414423fb009e5404685a19ef9",
+    "created_at": "2026-10-25T20:09:43.455653+00:00",
+    "copied_stages": 100,
+    "copied_attempts": 100,
+    "prior_evaluations_not_reused": 98,
+    "ledger_inherited": {
+      "actual_usd": 1.776121,
+      "reserved_usd": 0,
+      "recorded_attempts": 100,
+      "synthetic_attempts": 0,
+      "billable_attempts": 98,
+      "unresolved_attempts": 0
+    },
+    "accounting_note": "Prior purchases and reservations are inherited, not new calls. Do not sum spending across source and continuation runs.",
+    "generation_settings_changed": false,
+    "inference_calls_during_migration": 0
+  }
+}

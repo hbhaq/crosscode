@@ -1,0 +1,15 @@
+{
+  "task_id": "Synthetic/4",
+  "instruct_prompt": "Return x unchanged.",
+  "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+  "code_prompt": "def task_func(x):",
+  "entry_point": "task_func",
+  "libs": [
+    "json"
+  ],
+  "hard": true,
+  "task_hash": "7e5487aaded6478eb96013bdf41d1f032df1c3dac5953efc374bcad5ef820b8a",
+  "split": "instruct",
+  "configuration_hash": "0b3d2db146022ac420d76679f7f8cc721a258ae7f73410353986655b4538d4c5",
+  "design": "paper-independent"
+}

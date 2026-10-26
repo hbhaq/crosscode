@@ -1,0 +1,11 @@
+**
+!docker/
+!docker/Dockerfile
+!docker/Integration.Dockerfile
+!docker/Expanded.Dockerfile
+!docker/expanded.requirements.txt
+!docker/EgressProxy.Dockerfile
+!docker/Networked.Dockerfile
+!docker/egress_proxy.py
+!docker/egress_relay.py
+!docker/worker.py

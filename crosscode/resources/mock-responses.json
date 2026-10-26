@@ -1,0 +1,7 @@
+{
+  "notice": "SYNTHETIC fixtures. Never presented as real model outputs or benchmark results.",
+  "pass": "<solution>\ndef task_func(x):\n    return x\n</solution>",
+  "fail": "<solution>\ndef task_func(x):\n    return x + 1\n</solution>",
+  "parse_failure": "<solution>\ndef task_func(\n</solution>",
+  "truncated": "<solution>\ndef task_func(x):\n    return"
+}

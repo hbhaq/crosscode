@@ -1,0 +1,22 @@
+# Additional libraries required by the frozen seed-42 hard-50 selection,
+# including imports in official tests (not just task.libs).
+beautifulsoup4==4.8.2
+Faker==20.1.0
+Flask==3.0.3
+Flask-Mail==0.9.1
+gensim==4.3.2
+geopandas==0.13.2
+fiona==1.9.6
+pyproj==3.6.1
+shapely==2.0.4
+Levenshtein==0.25.0
+librosa==0.10.1
+numba==0.57.1
+llvmlite==0.40.1
+lxml==4.9.3
+nltk==3.8
+opencv-python-headless==4.9.0.80
+openpyxl==3.1.2
+pyquery==1.4.3
+seaborn==0.13.2
+soundfile==0.12.1

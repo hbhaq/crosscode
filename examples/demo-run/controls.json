@@ -1,0 +1,5 @@
+{
+  "max_cost_usd": 5.0,
+  "max_task_cost_usd": 2.0,
+  "parallelism": 1
+}

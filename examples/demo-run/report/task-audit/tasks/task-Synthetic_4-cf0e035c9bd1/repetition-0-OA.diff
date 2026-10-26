@@ -1,0 +1,5 @@
+--- writer.py
++++ reviewed.py
+@@ -1,2 +1,2 @@
+ def task_func(x):
+-    return x+    return x + 1

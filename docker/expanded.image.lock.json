@@ -1,0 +1,9 @@
+{
+  "image": "sha256:f81bb1173db78bc98b47681411f0f334fa98051fbe3c8ff9999a19d46d0cf0b7",
+  "tag": "crosscode-evaluator-expanded:latest",
+  "base_image": "sha256:cf18322963d2f0f7b47c6e7f0bac7d15d8d577191294f9f0cf718cf9d184c7b1",
+  "evaluator_commit": "09dd993f46c3fbf3a799465bb96d524edcb0b199",
+  "scope": "Seed-42 hard-50 dependency validation, offline networking; not yet ready for all 50 tasks",
+  "dockerfile_sha256": "a26e5573488416b7f4b0da73ffba267d7d037ce54bc3a583f124e9e0dcd2f949",
+  "freeze_sha256": "a132b2eff45168fd36a8999ece63fd1072f18fceea7db605ec00449fb7cc14c7"
+}

@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "project": "Crosscode",
+    "config_hash": "0b3d2db146022ac420d76679f7f8cc721a258ae7f73410353986655b4538d4c5",
+    "design": "paper-independent",
+    "mock": true,
+    "task_count": 5,
+    "dataset": {
+      "revision": "synthetic-v1",
+      "full": 20,
+      "hard": 10
+    },
+    "subset": "full",
+    "settings": {
+      "design": "paper-independent",
+      "conditions": [
+        "A",
+        "O",
+        "AO",
+        "OA",
+        "AA",
+        "OO"
+      ],
+      "gpt_model": "gpt-6.1-sol",
+      "claude_model": "claude-opus-5-5",
+      "gpt_effort": "medium",
+      "claude_effort": "medium",
+      "gpt_max_output_tokens": 16384,
+      "claude_max_output_tokens": 16384,
+      "repeats": 1,
+      "max_retries": 0,
+      "api_timeout": 300,
+      "eval_timeout": 300,
+      "profile": "personal",
+      "phase": "main",
+      "mock": true,
+      "split": "instruct",
+      "evaluator_image": "",
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 2000
+    },
+    "conditions": [
+      "A",
+      "O",
+      "AO",
+      "OA",
+      "AA",
+      "OO"
+    ],
+    "returned_models": [
+      "SYNTHETIC-A",
+      "SYNTHETIC-O"
+    ],
+    "requested_models": [
+      "claude-opus-5-5",
+      "gpt-6.1-sol"
+    ],
+    "ledger": {
+      "actual_usd": 0,
+      "reserved_usd": 0,
+      "recorded_attempts": 50,
+      "synthetic_attempts": 50,
+      "billable_attempts": 0,
+      "unresolved_attempts": 0
+    },
+    "calibration_evidence": null,
+    "bootstrap": {
+      "seed": 42,
+      "samples": 2000,
+      "unit": "task clusters, all available repetitions retained",
+      "interval": "percentile 2.5%, 97.5%; undefined below 2 clusters"
+    }
+  },
+  "tasks": [
+    {
+      "task_id": "Synthetic/9",
+      "page": "tasks/task-Synthetic_9-b2537607ce82/index.md",
+      "completed_stages": 10,
+      "requested_workflows": 6
+    },
+    {
+      "task_id": "Synthetic/13",
+      "page": "tasks/task-Synthetic_13-0d61e223c63a/index.md",
+      "completed_stages": 10,
+      "requested_workflows": 6
+    },
+    {
+      "task_id": "Synthetic/4",
+      "page": "tasks/task-Synthetic_4-cf0e035c9bd1/index.md",
+      "completed_stages": 10,
+      "requested_workflows": 6
+    },
+    {
+      "task_id": "Synthetic/12",
+      "page": "tasks/task-Synthetic_12-c376654c0c64/index.md",
+      "completed_stages": 10,
+      "requested_workflows": 6
+    },
+    {
+      "task_id": "Synthetic/17",
+      "page": "tasks/task-Synthetic_17-0bd715c18121/index.md",
+      "completed_stages": 10,
+      "requested_workflows": 6
+    }
+  ],
+  "stages": {
+    "Synthetic/13:0:O:writer": "stages/bb5fa42c9f7b1f4fc47d202dce1b52f6f8d615b8153d8f1d61ae4055ad1e4135/index.md",
+    "Synthetic/12:0:OO:reviewer": "stages/8b0d502d01aeca8f3dc9d3aa93861ea8fe7040a016dd80883ef9d68f55b5e3dd/index.md",
+    "Synthetic/4:0:O:writer": "stages/4e270f78b611697a39a33cff21ef8fa7df0f59821567dee4ff8f489e18650b2b/index.md",
+    "Synthetic/12:0:A:writer": "stages/358a643ae3ac018826cddfd88567d2791a0d4e8d235fefa9b138fca4e6e1f901/index.md",
+    "Synthetic/12:0:AO:reviewer": "stages/121907de437baa46db7acbbf040c3a75ee9e385cb5ac994a032a822dbf7786cd/index.md",
+    "Synthetic/12:0:O:writer": "stages/af87c22baa7cef0b7452964621a638ebe09ae887ed201cf3cc56bb4a5af01106/index.md",
+    "Synthetic/9:0:AO:reviewer": "stages/b5c9a0c3b2e36b1af72200f25dd1e293141f6bc97ad2a8c5f327a5c0398e36b4/index.md",
+    "Synthetic/13:0:OA:writer": "stages/46a31d11a6ee4c16401de0937fce15c1894d5da848f027f456c312ea934cb7ec/index.md",
+    "Synthetic/9:0:AO:writer": "stages/384b6998c40b1fddf51d29d4dc0155891c87662b4e21f881bafecee3aab411b0/index.md",
+    "Synthetic/13:0:A:writer": "stages/4ca79999c56770058b847a58f633b5ae1eb698c7efb77b868ecc41dee32e9df7/index.md",
+    "Synthetic/12:0:AA:writer": "stages/aaf391b06ba8011311c4b12adc372bc19ea94b3e4d0b2986783933c7759c03ed/index.md",
+    "Synthetic/9:0:O:writer": "stages/20a137ce882c04f0466ae766484887961fa210d8b347e882f9f5004107572f0e/index.md",
+    "Synthetic/13:0:OO:writer": "stages/e4bebfdb3b9659013d1244372eec8ca023904c8dfebc2490a3ba9303a87a801d/index.md",
+    "Synthetic/12:0:OA:reviewer": "stages/f3a59d9f1bf58b7ad32e900fa6cf03e3e8047df4211ce7aa47ebf371d5870e1f/index.md",
+    "Synthetic/17:0:AO:writer": "stages/a1691c62cfd52778cf000c43ce16fe435eb8f082ba9d7f331160fb8a66537109/index.md",
+    "Synthetic/17:0:AA:writer": "stages/ac12d6556262e28f513eb047beaa949833b61afc766a54cdafdaf87bf8081ded/index.md",
+    "Synthetic/4:0:A:writer": "stages/5fbc83410e82d8ba1e92493d0edc1f5547cd2cb90d72f913a6946e3c207d79c9/index.md",
+    "Synthetic/17:0:A:writer": "stages/783283db8b661ee0c398400b9895eaab73c0e2dfb1ef05e33bcbf1eaacb32072/index.md",
+    "Synthetic/4:0:OO:reviewer": "stages/82b338065ec448ac791c2d9285d8fe1b500b5ff5edd430338cc66f249f549f2b/index.md",
+    "Synthetic/9:0:AA:writer": "stages/f6dcbd6886e28b0450fa8c3eede4fd2a52c9e6943400abfe3982c1759b81b50f/index.md",
+    "Synthetic/13:0:AO:writer": "stages/bcd56ac0300489b5ba5cf9a4afde377582d48ae1acb680e8aa50310e7589561d/index.md",
+    "Synthetic/13:0:OO:reviewer": "stages/945f0d1e89e97811207909522693f92a9c1f0d3763ba9a7ac138a29908164295/index.md",
+    "Synthetic/17:0:OA:writer": "stages/b951db354746e9653991c80287e8c8654aeddb82615d17eb85ee718bdcf05a23/index.md",
+    "Synthetic/17:0:AO:reviewer": "stages/c72de9313987fec3e8da31d646a366aa7574b101f4994aa57036ff6aaeb5bf6a/index.md",
+    "Synthetic/17:0:O:writer": "stages/46c6d8f9fed8000377912888d6ae8b2dc069ddeb1004a41b1fcd7aec11d7e334/index.md",
+    "Synthetic/12:0:AA:reviewer": "stages/afe8ad5a49453832715b10348581d5f7eccd72a9ccc0c033ba0d89f96764b252/index.md",
+    "Synthetic/12:0:OA:writer": "stages/5d14ff9b14df6c4434d9cd33fc15357adf08e2acf1f722e9cafedae7c43af0de/index.md",
+    "Synthetic/9:0:OA:writer": "stages/00ee9cad7fd36d5c1ce3da93ef9723e3a0fa1ee0137a278e7ab2fd02fc36226b/index.md",
+    "Synthetic/4:0:AO:reviewer": "stages/07d11ad99cc74af0c868656f048c64e27bea11ded73329f92b33084a940d3778/index.md",
+    "Synthetic/4:0:OA:writer": "stages/7dea04c1a669e6e543424acb8b8ac1a60603c9212c8ecb7a8ad110d14329415e/index.md",
+    "Synthetic/4:0:AA:writer": "stages/2694df5c7892dea387bda78ffaa12f077c684493a86135eea4b8f20b93b6d283/index.md",
+    "Synthetic/9:0:OO:writer": "stages/e0f83f2a73ccd972ab820daafece0140d5a7b45285908fb61e3380daf10b119c/index.md",
+    "Synthetic/9:0:A:writer": "stages/ce82a0ca324226058d461cb4ac477f3c45b1e7c8c32d55992f6c3642db81c619/index.md",
+    "Synthetic/17:0:AA:reviewer": "stages/8255bf2af528ba423e5827a5ce318b8b2310f4bf3f9c015a58f8056068918df3/index.md",
+    "Synthetic/4:0:OA:reviewer": "stages/fd9380d4db299b7f5d104a9647f3924a44de9ee53d5627abe8aabdf1096440f5/index.md",
+    "Synthetic/17:0:OA:reviewer": "stages/7aec2482387950d89623ff724f7fc693b4b77755f26b983a468212d46573876c/index.md",
+    "Synthetic/9:0:OO:reviewer": "stages/c7247819df63760190e147f7f1ec7e4c4269613de4d6aeb98af9824d5a6fa8b7/index.md",
+    "Synthetic/4:0:AO:writer": "stages/545c78f1b7317982693aa3bc24a4ad99d030fa8732e824326c056ce9dbc6c7a0/index.md",
+    "Synthetic/17:0:OO:writer": "stages/8f923002440d9ea344be1ef4427bcaf5a29adb03e190a176e438e42f64284911/index.md",
+    "Synthetic/4:0:OO:writer": "stages/acbe2355f7e43d8c3b60c32f5a1f019dfbcfc76a31341c0dd081f078a67ba003/index.md",
+    "Synthetic/13:0:AA:reviewer": "stages/0f7de0981123dafa5001fa106943a3e14fce5a11fab8323ae89ccb3f62a2ef75/index.md",
+    "Synthetic/12:0:OO:writer": "stages/17585e66278e46622ff26e23529220b253f6ad24a65e923a87d5a49aea0c35bc/index.md",
+    "Synthetic/13:0:OA:reviewer": "stages/e0b5d8ae6f157d485096ec933452a29a24f171fd3684e1eda8a7be70fad52f89/index.md",
+    "Synthetic/4:0:AA:reviewer": "stages/35e35ef331ea2dcf6a816311b3331a7e6f4a3aafafc688028cca51ac63afcb8f/index.md",
+    "Synthetic/9:0:AA:reviewer": "stages/6f51d70242a0b1b1e7a838aa1c583cf42462d44088e4702c6d5c145edd4c00a7/index.md",
+    "Synthetic/12:0:AO:writer": "stages/80dbd7673d221d2be5398fba91a5d821c11a34c6969fce72ad6cf10b0880eb07/index.md",
+    "Synthetic/9:0:OA:reviewer": "stages/7ff6f50b8d75c83d69390d9ac43d9196e37c6cfdd8e3487561dbf829d1e0ed35/index.md",
+    "Synthetic/13:0:AA:writer": "stages/44d741ef3fcd47ca4d732392564382d10f096376120b8f37488ac53196d60a61/index.md",
+    "Synthetic/17:0:OO:reviewer": "stages/dd728cfe58250ec94be8e370c29b64ff9846e1f52c62f80984de3e0a7458cff7/index.md",
+    "Synthetic/13:0:AO:reviewer": "stages/ae7973a9a38e2a22dbdc871333d48aff05bff4c28e96cd27a216d481d5af5d80/index.md"
+  }
+}

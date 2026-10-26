@@ -1,0 +1,3 @@
+writer,Claude reviewer,GPT reviewer,configuration_hash,design_mode,analysis_population,phase,dataset_revision,subset,selected_task_count,requested_models,returned_models,reasoning_efforts,output_token_caps
+Claude Opus 5.5 (solo 60.0%),100.0% (+40.0 pp),100.0% (+40.0 pp),0b3d2db146022ac420d76679f7f8cc721a258ae7f73410353986655b4538d4c5,paper-independent,reliability-inclusive,main,"""synthetic-v1""",full,5,claude-opus-5-5;gpt-6.1-sol,SYNTHETIC-A;SYNTHETIC-O,medium / medium,16384 / 16384
+GPT-6.1 Sol (solo 80.0%),60.0% (-20.0 pp),100.0% (+20.0 pp),0b3d2db146022ac420d76679f7f8cc721a258ae7f73410353986655b4538d4c5,paper-independent,reliability-inclusive,main,"""synthetic-v1""",full,5,claude-opus-5-5;gpt-6.1-sol,SYNTHETIC-A;SYNTHETIC-O,medium / medium,16384 / 16384

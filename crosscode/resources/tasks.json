@@ -1,0 +1,262 @@
+[
+  {
+    "task_id": "Synthetic/0",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": true,
+    "libs": [
+      "json"
+    ]
+  },
+  {
+    "task_id": "Synthetic/1",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": true,
+    "libs": [
+      "math"
+    ]
+  },
+  {
+    "task_id": "Synthetic/2",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": true,
+    "libs": [
+      "json"
+    ]
+  },
+  {
+    "task_id": "Synthetic/3",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": true,
+    "libs": [
+      "math"
+    ]
+  },
+  {
+    "task_id": "Synthetic/4",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": true,
+    "libs": [
+      "json"
+    ]
+  },
+  {
+    "task_id": "Synthetic/5",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": true,
+    "libs": [
+      "math"
+    ]
+  },
+  {
+    "task_id": "Synthetic/6",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": true,
+    "libs": [
+      "json"
+    ]
+  },
+  {
+    "task_id": "Synthetic/7",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": true,
+    "libs": [
+      "math"
+    ]
+  },
+  {
+    "task_id": "Synthetic/8",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": true,
+    "libs": [
+      "json"
+    ]
+  },
+  {
+    "task_id": "Synthetic/9",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": true,
+    "libs": [
+      "math"
+    ]
+  },
+  {
+    "task_id": "Synthetic/10",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": false,
+    "libs": [
+      "json"
+    ]
+  },
+  {
+    "task_id": "Synthetic/11",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": false,
+    "libs": [
+      "math"
+    ]
+  },
+  {
+    "task_id": "Synthetic/12",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": false,
+    "libs": [
+      "json"
+    ]
+  },
+  {
+    "task_id": "Synthetic/13",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": false,
+    "libs": [
+      "math"
+    ]
+  },
+  {
+    "task_id": "Synthetic/14",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": false,
+    "libs": [
+      "json"
+    ]
+  },
+  {
+    "task_id": "Synthetic/15",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": false,
+    "libs": [
+      "math"
+    ]
+  },
+  {
+    "task_id": "Synthetic/16",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": false,
+    "libs": [
+      "json"
+    ]
+  },
+  {
+    "task_id": "Synthetic/17",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": false,
+    "libs": [
+      "math"
+    ]
+  },
+  {
+    "task_id": "Synthetic/18",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": false,
+    "libs": [
+      "json"
+    ]
+  },
+  {
+    "task_id": "Synthetic/19",
+    "instruct_prompt": "Return x unchanged.",
+    "complete_prompt": "def task_func(x):\n    \"\"\"Return x unchanged.\"\"\"\n",
+    "code_prompt": "def task_func(x):",
+    "canonical_solution": "    return x\n",
+    "entry_point": "task_func",
+    "test": "# SYNTHETIC ONLY: not executed by offline demo",
+    "hard": false,
+    "libs": [
+      "math"
+    ]
+  }
+]

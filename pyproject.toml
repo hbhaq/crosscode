@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crosscode"
+version = "0.1.0"
+description = "Budget-controlled cross-model code review experiments"
+requires-python = ">=3.12"
+dependencies = ["matplotlib==3.10.8", "pyarrow==23.0.1"]
+
+[project.scripts]
+crosscode = "crosscode.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["crosscode*"]
+
+[tool.setuptools.package-data]
+crosscode = ["prompts/*.txt", "resources/*.json"]

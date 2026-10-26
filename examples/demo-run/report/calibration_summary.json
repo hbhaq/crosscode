@@ -1,0 +1,105 @@
+{
+  "phase": "main",
+  "synthetic": true,
+  "configuration_hash": "0b3d2db146022ac420d76679f7f8cc721a258ae7f73410353986655b4538d4c5",
+  "prompt_templates_hash": "212c46047f9deda6810548b7268bed7d9a50630ed3e38fbebdf20d432deec5f1",
+  "settings": {
+    "design": "paper-independent",
+    "conditions": [
+      "A",
+      "O",
+      "AO",
+      "OA",
+      "AA",
+      "OO"
+    ],
+    "gpt_model": "gpt-6.1-sol",
+    "claude_model": "claude-opus-5-5",
+    "gpt_effort": "medium",
+    "claude_effort": "medium",
+    "gpt_max_output_tokens": 16384,
+    "claude_max_output_tokens": 16384,
+    "repeats": 1,
+    "max_retries": 0,
+    "api_timeout": 300,
+    "eval_timeout": 300,
+    "profile": "personal",
+    "phase": "main",
+    "mock": true,
+    "split": "instruct",
+    "evaluator_image": "",
+    "bootstrap_seed": 42,
+    "bootstrap_samples": 2000
+  },
+  "task_ids": [
+    "Synthetic/9",
+    "Synthetic/13",
+    "Synthetic/4",
+    "Synthetic/12",
+    "Synthetic/17"
+  ],
+  "generation_status_counts": {
+    "valid": 50
+  },
+  "stop_reasons": {
+    "synthetic_end": 50
+  },
+  "evaluator_status_counts": {
+    "synthetic_fail": 11,
+    "synthetic_pass": 39
+  },
+  "ledger": {
+    "actual_usd": 0,
+    "reserved_usd": 0,
+    "recorded_attempts": 50,
+    "synthetic_attempts": 50,
+    "billable_attempts": 0,
+    "unresolved_attempts": 0
+  },
+  "groups": [
+    {
+      "model": "A",
+      "role": "writer",
+      "observations": 15,
+      "mean_input_tokens": 120,
+      "mean_output_tokens": 40,
+      "mean_latency_s": 0.1,
+      "mean_cost_usd": 0.00128,
+      "truncations": 0,
+      "parse_failures": 0
+    },
+    {
+      "model": "O",
+      "role": "writer",
+      "observations": 15,
+      "mean_input_tokens": 120,
+      "mean_output_tokens": 40,
+      "mean_latency_s": 0.1,
+      "mean_cost_usd": 0.00064,
+      "truncations": 0,
+      "parse_failures": 0
+    },
+    {
+      "model": "O",
+      "role": "reviewer",
+      "observations": 10,
+      "mean_input_tokens": 120,
+      "mean_output_tokens": 40,
+      "mean_latency_s": 0.1,
+      "mean_cost_usd": 0.00064,
+      "truncations": 0,
+      "parse_failures": 0
+    },
+    {
+      "model": "A",
+      "role": "reviewer",
+      "observations": 10,
+      "mean_input_tokens": 120,
+      "mean_output_tokens": 40,
+      "mean_latency_s": 0.1,
+      "mean_cost_usd": 0.00128,
+      "truncations": 0,
+      "parse_failures": 0
+    }
+  ]
+}

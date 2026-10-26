@@ -1,0 +1,11 @@
+{
+  "profile": "company",
+  "design": "paper-independent",
+  "gpt_effort": "high",
+  "claude_effort": "high",
+  "api_timeout": 30000,
+  "max_retries": 3,
+  "parallelism": 1,
+  "max_cost_usd": 100,
+  "max_task_cost_usd": 10
+}

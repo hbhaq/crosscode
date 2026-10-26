@@ -1,0 +1,140 @@
+{
+  "status": "pass",
+  "passed": true,
+  "evidence": {
+    "date": "2026-10-25 20:00",
+    "eval": {
+      "BigCodeBench/590": [
+        {
+          "task_id": "BigCodeBench/590",
+          "solution": "def task_func(x):\n    pass\ndef task_func(x):\n    return x",
+          "status": "pass",
+          "details": {}
+        }
+      ]
+    }
+  },
+  "raw_code": "def task_func(x):\n    return x\n",
+  "sanitized_code": "def task_func(x):\n    return x",
+  "evaluated_code": "def task_func(x):\n    pass\ndef task_func(x):\n    return x",
+  "image": "sha256:afd0ca41f44b14dd7460a52cde246c49e0e4fff6dd84256e2643728917072c7f",
+  "runtime": {
+    "offline_command": [
+      "docker",
+      "run",
+      "--rm",
+      "--name",
+      "<container>",
+      "-i",
+      "--network",
+      "none",
+      "--read-only",
+      "--cap-drop",
+      "ALL",
+      "--security-opt",
+      "no-new-privileges",
+      "--pids-limit",
+      "128",
+      "--memory",
+      "4g",
+      "--cpus",
+      "2",
+      "--ulimit",
+      "nofile=1024:1024",
+      "--user",
+      "65534:65534",
+      "--tmpfs",
+      "/tmp:rw,nosuid,nodev,size=1g",
+      "--tmpfs",
+      "/work:rw,exec,nosuid,nodev,size=1g,uid=65534,gid=65534,mode=0700",
+      "-e",
+      "HOME=/tmp",
+      "-e",
+      "MPLCONFIGDIR=/tmp/matplotlib",
+      "-e",
+      "HF_HUB_OFFLINE=1",
+      "-e",
+      "HF_DATASETS_OFFLINE=1",
+      "sha256:afd0ca41f44b14dd7460a52cde246c49e0e4fff6dd84256e2643728917072c7f"
+    ],
+    "allowed_task_command": [
+      "docker",
+      "run",
+      "--rm",
+      "--name",
+      "<container>",
+      "-i",
+      "--network",
+      "none",
+      "--read-only",
+      "--cap-drop",
+      "ALL",
+      "--security-opt",
+      "no-new-privileges",
+      "--pids-limit",
+      "128",
+      "--memory",
+      "4g",
+      "--cpus",
+      "2",
+      "--ulimit",
+      "nofile=1024:1024",
+      "--user",
+      "65534:65534",
+      "--tmpfs",
+      "/tmp:rw,nosuid,nodev,size=1g",
+      "--tmpfs",
+      "/work:rw,exec,nosuid,nodev,size=1g,uid=65534,gid=65534,mode=0700",
+      "-e",
+      "HOME=/tmp",
+      "-e",
+      "MPLCONFIGDIR=/tmp/matplotlib",
+      "-e",
+      "HF_HUB_OFFLINE=1",
+      "-e",
+      "HF_DATASETS_OFFLINE=1",
+      "--mount",
+      "type=volume,source=<private-socket-volume>,target=/egress,readonly,volume-nocopy",
+      "-e",
+      "CROSSCODE_EGRESS_SOCKET=/egress/proxy.sock",
+      "-e",
+      "HTTPS_PROXY=http://127.0.0.1:3128",
+      "-e",
+      "HTTP_PROXY=http://127.0.0.1:3128",
+      "-e",
+      "https_proxy=http://127.0.0.1:3128",
+      "-e",
+      "http_proxy=http://127.0.0.1:3128",
+      "-e",
+      "ALL_PROXY=",
+      "-e",
+      "all_proxy=",
+      "-e",
+      "NO_PROXY=localhost,127.0.0.1",
+      "-e",
+      "no_proxy=localhost,127.0.0.1",
+      "sha256:afd0ca41f44b14dd7460a52cde246c49e0e4fff6dd84256e2643728917072c7f"
+    ],
+    "proxy_image": "sha256:3304f6c216ff7e417f71a675773d5a1c939dfa4414423fb009e5404685a19ef9",
+    "policy": {
+      "version": "wikibooks-connect-sni-v1",
+      "hosts": [
+        "en.wikibooks.org"
+      ],
+      "ports": [
+        443
+      ],
+      "task_ids": [
+        "BigCodeBench/590"
+      ],
+      "transport": "read-only named-volume Unix socket; evaluator network=none",
+      "user_agent": "CrosscodeBenchmark/0.1 (BigCodeBench reproducibility pilot)",
+      "proxy_limits": {
+        "connections": 16,
+        "bytes_per_connection": 16777216,
+        "connection_seconds": 60
+      }
+    }
+  },
+  "restricted_egress_used": true
+}
